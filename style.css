@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #de6944;
+    padding-top: 10px;
+}
+
+header img {
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+.flex-item.active  {
+    color: #1d1d1d;
+    border-bottom: 3px solid #ffe100;
+}
+
+.card-treatments {
+    background-color: rgb(214, 88, 158);
+}
+
+.card-treatments h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15%;
+    padding: 30px;
+}
+
+#card {
+    border: 1px solid #ccc;
+    height: 260px;
+    width: 160px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: palevioletred;
+}
+
+#card h2 {
+    padding-top: 30px;
+}
+
+#container {
+    display: flex;
+    padding-bottom: 40px;
+    background-color: gray;
+}
+
+#box {
+    width: 50%;
+    border: 1px snow;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#box img {
+    width: 500px;
+    padding-top: 30px;
+    padding-left: 90px;
+}
+
+#box1 {
+    background-color: white;
+    width: 50%;
+    border: 1px snow;
+    box-sizing: border-box;
+}
+
+#box1 h3 {
+    padding-top: 30px;
+    display: flex;
+    margin-left: 60px;
+    font-size: 50px;
+    color: black;
+}
+
+#phone {
+    background-color: #de6944;
+    height: 150px;
+}
+
+#phone {
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#phone button {
+    width: 120px;
+    border-radius: 15px;
+    background-color: #ccc;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15%;
+    padding: 30px;
+}
+
+#card-body {
+    border: 1px solid #ccc;
+    height: 280px;
+    width: 160px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: palevioletred;
+}
+
+footer p {
+    text-align: center;
+    color: #1d1d1d;
+}
